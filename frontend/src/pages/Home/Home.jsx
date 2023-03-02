@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { Group, Chat, MoreVert, Search, FilterList } from "@mui/icons-material";
-import { EMPTY_PROFILE_PICTURE } from "../../contants/constants";
+import { EMPTY_PROFILE_PICTURE } from "../../constants/constants";
 import Contact from "../../components/Contact/Contact";
+import ChatDialog from "../../components/ChatDialog/ChatDialog";
 import "./Home.css";
 
 const Home = () => {
@@ -53,6 +54,7 @@ const Home = () => {
                         <Contact num={16} />
                     </div>
                 </div>
+                <ChatDialog />
             </div>
         </div>
     )

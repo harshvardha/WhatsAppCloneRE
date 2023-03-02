@@ -6,10 +6,11 @@
 }
 
 .home--dashboard {
+    display: flex;
     position: fixed;
     top: 10px;
     margin-left: 10px;
-    width: fit-content;
+    width: 99%;
     -webkit-box-shadow: 0px 2px 18px -1px rgba(0, 0, 0, 0.55);
     -moz-box-shadow: 0px 2px 18px -1px rgba(0, 0, 0, 0.55);
     box-shadow: 0px 2px 18px -1px rgba(0, 0, 0, 0.55);
