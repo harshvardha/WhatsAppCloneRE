@@ -1,7 +1,7 @@
 .contact {
     display: flex;
     align-items: center;
-    column-gap: 20px;
+    justify-content: space-between;
     padding: 10px;
     border: 1px solid #e0e4eb;
 }
@@ -11,4 +11,10 @@
     margin-left: 10px;
     border-radius: 50%;
     background-color: #e0e4eb;
+}
+
+.contact--user {
+    display: flex;
+    align-items: center;
+    column-gap: 2em;
 }
