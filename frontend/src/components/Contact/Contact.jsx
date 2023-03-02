@@ -1,4 +1,4 @@
-import { EMPTY_PROFILE_PICTURE } from "../../contants/constants";
+import { EMPTY_PROFILE_PICTURE } from "../../constants/constants";
 import "./Contact.css";
 
 const Contact = ({ num }) => {
