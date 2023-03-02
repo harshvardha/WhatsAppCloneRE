@@ -1,0 +1,55 @@
+.chatDialog {
+    width: 100%;
+}
+
+#emptyChatImage {
+    width: 28.125em;
+    margin: 20% 35%;
+}
+
+.chatDialog--nav {
+    border: 1px solid #e0e4eb;
+    display: flex;
+    justify-content: space-between;
+    background-color: #e0e4eb;
+}
+
+.nav--user {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    padding: 16px 10px;
+    background-color: #e0e4eb;
+}
+
+.user--active {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.nav--icons {
+    display: flex;
+    align-items: center;
+    column-gap: 1em;
+    margin-right: 10px;
+    background-color: #e0e4eb;
+}
+
+#userLastActive {
+    font-size: 11px;
+    background-color: #e0e4eb
+}
+
+#userName {
+    background-color: #e0e4eb;
+}
+
+.nav--user img {
+    width: 30px;
+    border-radius: 50%;
+}
+
+.chat--area img {
+    /* width: 30.9%; */
+}
